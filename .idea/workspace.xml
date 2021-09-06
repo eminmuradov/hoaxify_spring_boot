@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8a9d24b-57fa-41f3-8246-02868c43e1d3" name="Changes" comment="" />
+    <list default="true" id="b8a9d24b-57fa-41f3-8246-02868c43e1d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/company/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/company/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/company/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/company/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/company/response/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/company/response/ApiError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/company/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/company/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/company/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/company/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/company/response/ApiResponse.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +27,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -42,6 +55,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1xcVBiluS3AuZJDv9JnQLZX6lXf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,6 +67,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hoaxify_reactApp/hoaxify" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -88,12 +103,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630654230874</updated>
-      <workItem from="1630654232110" duration="12034000" />
+      <workItem from="1630654232110" duration="22473000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

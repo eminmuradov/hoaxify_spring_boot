@@ -11,7 +11,7 @@ import java.util.Map;
 @Getter
 @Setter
 @ToString
-public class ApiResponse {
+public class ApiError {
 
 
     private int status;
@@ -25,7 +25,7 @@ public class ApiResponse {
 
     private Map<String, String> validationErrors;
 
-    public ApiResponse(int status, String message, String path) {
+    public ApiError(int status, String message, String path) {
         this.status = status;
         this.message = message;
         this.path = path;

@@ -1,0 +1,27 @@
+server:
+  port: 7065
+
+spring:
+  datasource:
+    platform: postgresql
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/worklife
+    username: postgres
+    password: 12345
+    hikari:
+      pool-name: Hikari Pool
+      auto-commit: true
+      connection-timeout: 10000
+      idle-timeout: 60000
+      max-lifetime: 120000
+      minimum-idle: 5
+      maximum-pool-size: 10
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.PostgresPlusDialect
+    database: postgresql
+    show-sql: true
+    properties:
+      hibernate.format_sql: true

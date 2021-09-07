@@ -24,19 +24,20 @@ public class User {
     private int id;
 
 
-    @NotNull
-    @Size( min =4, max = 255,message = "")
+    @NotNull(message = "{hoaxify.constraint.username.NotNull.message}")
+    @Size(min = 4, max = 255)
+    @UniqueUsername
     private String username;
 
 
     @NotNull
-    @Size(min =4, max = 255)
-
+    @Size(min = 4, max = 255)
     private String displayName;
 
-    @NotNull
-    @Size(min = 4,max=255)
-    @Pattern(regexp = "^.*(?=.{8,})(?=..*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$")
+
+    @NotNull(message = "{hoaxify.constraint.password.NotNull.message}")
+    @Size(min = 4, max = 255)
+    @Pattern(regexp = "^.*(?=.{8,})(?=..*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$", message ="{hoaxify.constraint.password.Pattern.message}")
     private String password;
 
 }

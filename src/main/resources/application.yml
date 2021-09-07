@@ -23,5 +23,11 @@ spring:
     database-platform: org.hibernate.dialect.PostgresPlusDialect
     database: postgresql
     show-sql: true
+
+    hibernate.format_sql: true
     properties:
-      hibernate.format_sql: true
+      javax:
+        persistence:
+          validation:
+            mode: none
+

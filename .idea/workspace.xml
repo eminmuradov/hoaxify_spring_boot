@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8a9d24b-57fa-41f3-8246-02868c43e1d3" name="Changes" comment="task">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/company/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/company/model/UniqueUsername.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/az/company/model/UniqueUsernameValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages_tr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ValidationMessages_tr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/az/company/model/UniqueUsername.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/az/company/model/UniqueUsernameValidation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630654230874</updated>
-      <workItem from="1630654232110" duration="45939000" />
+      <workItem from="1630654232110" duration="46688000" />
     </task>
     <task id="LOCAL-00001" summary="task">
       <created>1630936228653</created>
@@ -122,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631023115625</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="task">
+      <created>1631110179770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631110179770</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

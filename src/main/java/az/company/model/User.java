@@ -1,5 +1,7 @@
 package az.company.model;
 
+import az.company.response.Views;
+import com.fasterxml.jackson.annotation.JsonView;
 import lombok.*;
 
 
@@ -27,17 +29,23 @@ public class User {
     @NotNull(message = "{hoaxify.constraint.username.NotNull.message}")
     @Size(min = 4, max = 255)
     @UniqueUsername
+    @JsonView(Views.Base.class)
     private String username;
 
 
     @NotNull
     @Size(min = 4, max = 255)
+    @JsonView(Views.Base.class)
     private String displayName;
 
 
     @NotNull(message = "{hoaxify.constraint.password.NotNull.message}")
     @Size(min = 4, max = 255)
     @Pattern(regexp = "^.*(?=.{8,})(?=..*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$", message ="{hoaxify.constraint.password.Pattern.message}")
+    @JsonView(Views.Sensitive.class)
     private String password;
+
+    @JsonView(Views.Base.class)
+    private String image;
 
 }

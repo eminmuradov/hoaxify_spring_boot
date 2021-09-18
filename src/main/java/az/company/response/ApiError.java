@@ -1,6 +1,7 @@
 package az.company.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonView;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -16,12 +17,16 @@ import java.util.Map;
 public class ApiError {
 
 
+    @JsonView(Views.Base.class)
     private int status;
 
+    @JsonView(Views.Base.class)
     private String message;
 
+    @JsonView(Views.Base.class)
     private String path;
 
+    @JsonView(Views.Base.class)
     private long timestamp = new Date().getTime();
 
 

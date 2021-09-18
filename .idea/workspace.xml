@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8a9d24b-57fa-41f3-8246-02868c43e1d3" name="Changes" comment="task2">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/company/WsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/company/WsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/az/company/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/company/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/company/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/company/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/az/company/response/ApiError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/company/response/ApiError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/company/response/ApiError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/company/response/ApiError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/company/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/company/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/company/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/company/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/company/WsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/company/WsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/company/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/company/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/company/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/company/service/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hoaxify_reactApp/hoaxify" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hoaxify_reactApp" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -74,20 +84,17 @@
       <recent name="az.company.model" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.WsApplication">
     <configuration name="HoaxifyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="hoaxify" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="az.company.WsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hoaxify_spring_boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="az.company.WsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,6 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1630654230874</updated>
       <workItem from="1630654232110" duration="50171000" />
+      <workItem from="1631512289039" duration="358000" />
+      <workItem from="1631539691407" duration="33045000" />
     </task>
     <task id="LOCAL-00001" summary="task">
       <created>1630936228653</created>
@@ -155,6 +164,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task" />
